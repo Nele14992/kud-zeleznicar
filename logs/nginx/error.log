@@ -1,0 +1,3 @@
+2025/01/26 19:35:24 [error] 11968#12632: *313 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/upgrade.php?step=upgrade_db HTTP/1.1", upstream: "fastcgi://127.0.0.1:10014", host: "kud.local"
+2025/02/05 12:04:19 [error] 1088#14124: *6 directory index of "C:/Users/Korisnik/Desktop/kud/app/public/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "kud.local"
+2025/02/05 12:05:51 [error] 11248#10692: *1 directory index of "C:/Users/Korisnik/Desktop/kud/app/public/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "kud.local"

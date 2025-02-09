@@ -1,0 +1,26 @@
+[12-Jun-2024 21:49:31 UTC] PHP Warning:  Array to string conversion in C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\formatting.php on line 1108
+[12-Jun-2024 22:36:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\formatting.php on line 1108
+[12-Jun-2024 22:38:21 UTC] PHP Warning:  Array to string conversion in C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\formatting.php on line 1108
+[27-Jul-2024 06:27:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\core\wp-api.php:26
+Stack trace:
+#0 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\modules\compatibility-tag\base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\modules\compatibility-tag\base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\modules\compatibility-tag\module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\modules\compatibility-tag\base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\modules\system-info\module.php(338): do_action('elementor/syste...')
+#8 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\includes\tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\includes\tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\includes\tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Korisnik\Desktop\kud\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#14 C:\Users\Korisnik\Desktop\kud\app\public\wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\core\wp-api.php on line 26
+[17-Sep-2024 08:45:47 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\includes\managers\widgets.php on line 378
+[17-Sep-2024 08:47:28 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\Korisnik\Desktop\kud\app\public\wp-content\plugins\elementor\includes\managers\widgets.php on line 378
+[29-Oct-2024 21:36:06 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[12-Jan-2025 15:13:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Korisnik/AppData/Roaming/Local/lightning-services/php-8.1.29+0/bin/win64/ext\php_imagick.dll (The specified module could not be found), C:/Users/Korisnik/AppData/Roaming/Local/lightning-services/php-8.1.29+0/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found)) in Unknown on line 0
